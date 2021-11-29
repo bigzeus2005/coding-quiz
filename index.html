@@ -11,13 +11,14 @@
 
 <body>
 
- <div class="card hide" id="homepage-card">
-    <H1>Coding Quiz</H1>
-    <p>Description</p>
+ <div class="card" id="homepage-card">
+    <H1>Steelers Trivia</H1>
+    <p>This is a quick quiz I put together to test your knowledge of the Pittsburgh Steelers!</p>
     <button class="btn" id="start-btn">Start Quiz</button>
+    <button class="btn" id="high-score-btn">High Scores</button>
   </div>
 
-  <div class="card hide" id="question-card">
+  <div class="card" id="question-card">
     <div id="question">Question Here</div>
     <button class="btn" id="answer-btn">Answer</button>
     <button class="btn" id="answer-btn">Answer</button>
@@ -26,20 +27,21 @@
     <div id="question-output">Correct or False</div>
   </div>
 
-  <div class="card hide" id="score-card">
+  <div class="card" id="score-card">
     <h1>Input Initial Here:</h1>
-    <input type="text">
-    <button class="btn" id="high-score-btn">Submit</button>
+    <input type="text" maxlength="3">
+    <button class="btn" id="submit-btn">Submit</button>
+    <button class="btn" id="high-score-btn">High Scores</button>
   </div>
 
-  <div class="card hide" id="high-score-card">
+  <div class="card" id="high-score-card">
     <h1>High Scores</h1>
     <ul>
-      <li id="high-score"></li>
+      <li id="high-score">abc</li>
       <li id="high-score"></li>
       <li id="high-score"></li>
       <li id="high-score"></li>      
-    </ul>
+    </ul>    
   </div>
 
   <script src="./assets/js/script.js"></script>
