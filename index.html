@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Quiz</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+
+<body>
+
+ <div class="card hide" id="homepage-card">
+    <H1>Coding Quiz</H1>
+    <p>Description</p>
+    <button class="btn" id="start-btn">Start Quiz</button>
+  </div>
+
+  <div class="card hide" id="question-card">
+    <div id="question">Question Here</div>
+    <button class="btn" id="answer-btn">Answer</button>
+    <button class="btn" id="answer-btn">Answer</button>
+    <button class="btn" id="answer-btn">Answer</button>
+    <button class="btn" id="answer-btn">Answer</button>
+    <div id="question-output">Correct or False</div>
+  </div>
+
+  <div class="card hide" id="score-card">
+    <h1>Input Initial Here:</h1>
+    <input type="text">
+    <button class="btn" id="high-score-btn">Submit</button>
+  </div>
+
+  <div class="card hide" id="high-score-card">
+    <h1>High Scores</h1>
+    <ul>
+      <li id="high-score"></li>
+      <li id="high-score"></li>
+      <li id="high-score"></li>
+      <li id="high-score"></li>      
+    </ul>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
+
+
+<!--
+Pseudocode
+
+HTML
+  Home Page
+    start button
+    title
+    description
+  
+  Question page
+    answer buttons
+    indicator if answer was correct
+
+  Score page
+    initial input
+
+  High scores page
+    list of high scores
+
+CSS
+  Container styling
+  button styling
+  Flex column for buttons
+
+JS
+  Call HTML elements to page 
+  function to start quiz
+  function for generating questions
+    if statement for if question is correct or fals
+  function for high score
+    input for initials
+-->
