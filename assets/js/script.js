@@ -91,6 +91,12 @@ function questionClick() {
   }
 }
 
+function scoreCard() {
+  questionEl.setAttribute("class", "hide")
+  scorecardEl.removeAttribute("class", "hide")
+  saveHighScores()
+}
+
 function saveHighScores() {
   var initials = initialsEl.value.trim()
   if (initials !== "") {
@@ -104,9 +110,7 @@ function saveHighScores() {
   }
 }
 
-function scoreCard() {
 
-}
 
 function highScore() {
 
